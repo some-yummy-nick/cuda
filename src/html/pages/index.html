@@ -3,15 +3,13 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>
-  </title>
+  <title>Cuda</title>
   <meta name="viewport" content="width=device-width">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
   <script>WebFont.load({
     google: {
-      families: ["PT Sans:400,700"],
       custom: {
-        families: ['Oswald']
+        families: ['TitilliumWeb:n3,n4,i3,n6,n7']
       }
     }
   });</script>
@@ -34,15 +32,35 @@
 <script>var yaBrowserUpdater = new ya.browserUpdater.init({"lang":"ru","browsers":{"yabrowser":"15.12","chrome":"54","ie":"10","opera":"41","safari":"8","fx":"49","iron":"35","flock":"Infinity","palemoon":"25","camino":"Infinity","maxthon":"4.5","seamonkey":"2.3"},"theme":"yellow"});</script>
 <div class="wrapper">
   <div class="content">
+
     <!--HEADER-->
     @@include('../blocks/header.html')
     <!--HEADER END-->
+
+    <!--SERVICES-->
+    @@include('../blocks/services.html')
+    <!--SERVICES END-->
+
+    <!--TEAM-->
+    @@include('../blocks/team.html')
+    <!--TEAM END-->
+
+    <!--SKILLS-->
+    @@include('../blocks/skills.html')
+    <!--SKILLS END-->
+
+    <!--PORTFOLIO-->
+    @@include('../blocks/portfolio.html')
+    <!--PORTFOLIO END-->
+
   </div>
   <!--FOOTER-->
   @@include('../blocks/footer.html')
   <!--FOOTER END-->
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <!-- build:js js/vendor.js -->
+<script src="../../libraries/jquery.circliful.min.js"></script>
 <!-- endbuild -->
 <script src="js/index.js"></script>
 </body>

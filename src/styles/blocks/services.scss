@@ -1,0 +1,30 @@
+.services {
+  background-color: #17c2a4;
+  min-height: 100vh;
+  text-align: center;
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  &__item {
+    width: 260px;
+    margin-bottom: 50px;
+  }
+  &__image{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  &__text{
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media($desktop-widths) {
+    &__items {
+      justify-content:space-around;
+    }
+  }
+}
