@@ -47,6 +47,7 @@ let processors = [
   assets = [
     'src/fonts{,/**}',
     'src/images{,/favicon/**}',
+    'src/libraries{,/circliful/**}',
     '!src/html{,/**}',
     '!src/styles{,/**}',
     '!src/scripts/script.js',
