@@ -12,19 +12,19 @@
     width: 260px;
     margin-bottom: 50px;
   }
-  &__image{
+  &__image {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
   }
-  &__text{
+  &__text {
     max-width: 200px;
     margin-left: auto;
     margin-right: auto;
   }
   @media($desktop-widths) {
     &__items {
-      justify-content:space-around;
+      justify-content: space-around;
     }
   }
 }

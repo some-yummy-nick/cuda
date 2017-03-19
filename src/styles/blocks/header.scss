@@ -7,10 +7,10 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  &__top{
+  &__top {
     margin-bottom: 50px;
   }
-  &__title{
+  &__title {
     max-width: 906px;
     margin-left: auto;
     margin-right: auto;
@@ -26,12 +26,12 @@
       flex-wrap: nowrap;
       justify-content: space-between;
     }
-    &__top{
+    &__top {
       margin-bottom: 100px;
     }
   }
   @media($desktop-widths) {
-    &__top{
+    &__top {
       margin-bottom: 150px;
     }
   }

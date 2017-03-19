@@ -1,0 +1,39 @@
+.contact {
+  background-color: #3c5499;
+  color: white;
+  padding-bottom: 70px;
+  .section__text {
+    max-width: inherit;
+  }
+  &__form {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+  input {
+    color: #fff;
+    margin-bottom: 20px;
+    width: 35%;
+    margin-right: 5%;
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  textarea {
+    resize: none;
+    width: 75%;
+    color: #fff;
+  }
+
+  input,
+  textarea {
+    @include placeColor(#fff);
+    background-color: #273a71;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+  }
+}
